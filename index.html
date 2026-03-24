@@ -17,21 +17,27 @@
     AI Poem Generator
    </header> 
    <main>
-    <form>
+    <div class="form-container">
+    <form id="poem-generator-form" >
         <input type="text" placeholder="Enter the topic of poem" autofocus  required  autocomplete="off"
         class="instructions"/>
         <input type="submit" class="button-press"
         id="user-instructions" />
 
-    </form id="poem-generator-form">
-    <div class="poems" id="poem-ai">
+    </form>
+    
+   <div class="hint"> i.e Flower , Love</div>
         
     </div>
+    <div class="poems hidden" id="poem-ai"></div>
    </main>
    <footer>
     This project was coded by <a href="https://github.com/rethabilemanyanye4-coder" target="_blank">Rethabile Manyanye</a> and is  <a href="https://github.com/rethabilemanyanye4-coder/my-poems-generator" target="_blank">open-sourced on Github</a> and is hosted on <a href="https://poem-ai.netlify.app/" target="_blank">Netlify</a>
-   </footer> 
+   </footer>
+    </div>
    </div>
+
+
   <script src="src/index.js"></script>  
 </body>
 </html>
