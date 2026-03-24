@@ -25,9 +25,7 @@ poemElement.innerHTML= `<div class="generating">Generating a poem...</div>`;
 
 
 
-console.log(`Prompt: ${prompt}`);
-console.log(`Generating poem`);
-console.log(`context: ${context}`);
+
  
  // Make a call to the API
  axios.get(apiUrl).then(displayPoem);
